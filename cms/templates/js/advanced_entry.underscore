@@ -1,4 +1,4 @@
-<% if (!hidden) { %>
+<% if (!hidden && (display_name == 'Course Display Name' || display_name == 'Advanced Module List')) { %>
     <li class="field-group course-advanced-policy-list-item <%- deprecated ? 'is-deprecated' : '' %>">
         <div class="field is-not-editable text key" id="<%- key %>">
             <h3 class="title" id="<%- keyUniqueId %>"><%- display_name %></h3>
