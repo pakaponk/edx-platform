@@ -127,7 +127,7 @@ msgstr ""
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
 msgid "Discussion"
-msgstr ""
+msgstr "ห้องสนทนา"
 
 #: cms/djangoapps/contentstore/views/component.py
 #: lms/djangoapps/class_dashboard/dashboard_data.py
@@ -137,7 +137,7 @@ msgstr ""
 #: cms/djangoapps/contentstore/views/component.py
 #: common/lib/xmodule/xmodule/video_module/video_module.py
 msgid "Advanced"
-msgstr ""
+msgstr "อื่นๆ"
 
 #: cms/templates/settings.html
 msgid "Entrance Exam"
@@ -2604,7 +2604,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Display Name"
-msgstr ""
+msgstr "ชื่อหลักสูตร"
 
 #: common/lib/xmodule/xmodule/course_module.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -6212,7 +6212,7 @@ msgstr ""
 #: lms/templates/preview_menu.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Staff"
-msgstr "เจ้าหน้าที่"
+msgstr "ผู้สอน"
 
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py
 msgid "Used Registration Code"
@@ -9545,7 +9545,7 @@ msgstr ""
 #: cms/templates/course-create-rerun.html cms/templates/index.html
 #: cms/templates/settings.html
 msgid "Course Run"
-msgstr "เปิดการทำงานหลักสูตร"
+msgstr "ปีการศึกษาและเทอม"
 
 #: openedx/core/djangoapps/config_model_utils/models.py
 msgid ""
@@ -11241,7 +11241,7 @@ msgstr "HTML"
 
 #: cms/djangoapps/contentstore/views/component.py
 msgid "Video"
-msgstr "วีดีโอ"
+msgstr "วิดีโอ"
 
 #: cms/djangoapps/contentstore/views/component.py
 msgid "Blank"
@@ -11737,7 +11737,7 @@ msgstr "ไม่พบหน้าที่ต้องการเปิด"
 #: cms/templates/widgets/header.html lms/templates/static_htmlbook.html
 #: lms/templates/static_pdfbook.html lms/templates/staticbook.html
 msgid "Content"
-msgstr ""
+msgstr "เนื้อหา"
 
 #: cms/templates/certificates.html cms/templates/group_configurations.html
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
@@ -11745,7 +11745,7 @@ msgstr ""
 #: cms/templates/settings_graders.html cms/templates/widgets/header.html
 #: lms/templates/wiki/includes/article_menu.html
 msgid "Settings"
-msgstr "การตั้งค่าต่างๆ "
+msgstr "การตั้งค่า"
 
 #: cms/templates/certificates.html cms/templates/container.html
 #: cms/templates/course_outline.html cms/templates/group_configurations.html
@@ -11766,7 +11766,7 @@ msgstr "หมายเลขหลักสูตร"
 #: cms/templates/course_outline.html
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Course Outline"
-msgstr ""
+msgstr "โครงร่างหลักสูตร"
 
 #: cms/templates/html_error.html lms/templates/module-error.html
 msgid "Error:"
@@ -12744,7 +12744,7 @@ msgstr "ภาพรวมหลักสูตร"
 
 #: lms/templates/preview_menu.html
 msgid "View this course as:"
-msgstr "ดูหลักสูตร"
+msgstr "ดูหลักสูตรในฐานะ"
 
 #: lms/templates/preview_menu.html
 msgid "Learner"
@@ -13440,7 +13440,7 @@ msgid ""
 "Clicking the subtitles is a fast way to skip forwards and backwards by small"
 " amounts."
 msgstr ""
-"ระหว่างการเล่นวีดีโอ ใช้คำบรรยายและแถบเลื่อนเพื่อนำทาง  "
+"ระหว่างการเล่นวิดีโอ ใช้คำบรรยายและแถบเลื่อนเพื่อนำทาง  "
 "คลิกที่คำบรรยายเป็นวิธีที่รวดเร็วในการข้ามไปข้างหน้าหรือกลับไปด้านหลัง"
 
 #: lms/templates/using.html
@@ -13467,7 +13467,7 @@ msgstr "กำลังโหลดเครื่องเล่นวิดิ
 
 #: lms/templates/video.html
 msgid "Play video"
-msgstr "เล่นวีดีโอ"
+msgstr "เล่นวิดีโอ"
 
 #: lms/templates/video.html
 msgid "No playable video sources found."
@@ -14876,7 +14876,7 @@ msgstr ""
 
 #: lms/templates/courseware/course_about.html
 msgid "Enroll Now"
-msgstr ""
+msgstr "ลงทะเบียนเพื่อดูเนื้อหา"
 
 #: lms/templates/courseware/course_about.html
 msgid "View About Page in studio"
@@ -19574,7 +19574,7 @@ msgstr ""
 
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html
 msgid "Expand All"
-msgstr ""
+msgstr "แสดงทั้งหมด"
 
 #: openedx/features/course_experience/templates/course_experience/course-outline-fragment.html
 msgid "Prerequisite: "
@@ -20075,7 +20075,7 @@ msgstr ""
 
 #: cms/templates/asset_index.html cms/templates/widgets/header.html
 msgid "Files & Uploads"
-msgstr ""
+msgstr "ไฟล์และการอัปโหลด"
 
 #: cms/templates/certificates.html
 msgid "Course Certificates"
@@ -20334,7 +20334,7 @@ msgstr "ข้อมูลที่จำเป็นต้องใช้ใน
 #. filling out the form to create a new course.
 #: cms/templates/course-create-rerun.html cms/templates/index.html
 msgid "e.g. Introduction to Computer Science"
-msgstr "ตัวอย่างเช่น วิทยาการคอมพิวเตอร์เบื้องต้น"
+msgstr "เช่น ฟิสิกส์เพิ่มเติม เล่ม 1 (ม.4/1)"
 
 #: cms/templates/course-create-rerun.html
 msgid ""
@@ -20347,7 +20347,7 @@ msgstr ""
 #: cms/templates/course-create-rerun.html cms/templates/index.html
 #: cms/templates/settings.html
 msgid "Organization"
-msgstr "หน่วยงาน"
+msgstr "ชื่อโรงเรียน"
 
 #. Translators: This is an example for the name of the organization sponsoring
 #. a course, seen when filling out the form to create a new course. The
@@ -20356,7 +20356,7 @@ msgstr "หน่วยงาน"
 #. when user put no data into this field.
 #: cms/templates/course-create-rerun.html cms/templates/index.html
 msgid "e.g. UniversityX or OrganizationX"
-msgstr "ยกตัวอย่างเช่น  มหาวิทยาลัยX หรือ องค์กรX"
+msgstr "เช่น DSRU"
 
 #: cms/templates/course-create-rerun.html
 msgid ""
@@ -20376,7 +20376,7 @@ msgstr "หมายเหตุ: ไม่อนุญาตให้มีช�
 #. spaces.
 #: cms/templates/course-create-rerun.html cms/templates/index.html
 msgid "e.g. CS101"
-msgstr "ตัวอย่างเช่น CS101"
+msgstr "เช่น physics_advanced_1_m4_1"
 
 #: cms/templates/course-create-rerun.html
 msgid ""
@@ -20390,7 +20390,7 @@ msgstr ""
 #. course.
 #: cms/templates/course-create-rerun.html cms/templates/index.html
 msgid "e.g. 2014_T1"
-msgstr "ตัวอย่างเช่น 2014_T1"
+msgstr "2563_T1"
 
 #: cms/templates/course-create-rerun.html
 msgid ""
@@ -20531,7 +20531,7 @@ msgstr "สร้างดัชนีใหม่"
 
 #: cms/templates/course_outline.html
 msgid "Collapse All Sections"
-msgstr "ยุบทุกเซคชั่น"
+msgstr "ยุบ/ซ่อนทุกส่วน"
 
 #: cms/templates/course_outline.html
 msgid "Expand All Sections"
@@ -20543,7 +20543,7 @@ msgstr "คลิกเพื่อเปิดบทเรียนใน LMS �
 
 #: cms/templates/course_outline.html cms/templates/edit-tabs.html
 msgid "View Live"
-msgstr "ดูสด"
+msgstr "ดูหลักสูตร"
 
 #: cms/templates/course_outline.html
 msgid "Creating your course organization"
@@ -21577,7 +21577,7 @@ msgstr "ดูการอัพเดตห้องสมุด"
 
 #: cms/templates/import.html
 msgid "View Updated Outline"
-msgstr "ดูการอัพเกรดโครงร่าง"
+msgstr "ดูหลักสูตรที่นำเข้า"
 
 #: cms/templates/import.html
 msgid "Why import a library?"
@@ -21663,7 +21663,7 @@ msgstr "หน้าแรก {studio_name}"
 
 #: cms/templates/index.html
 msgid "New Course"
-msgstr "หลักสูตรใหม่"
+msgstr "สร้างหลักสูตรใหม่"
 
 #: cms/templates/index.html
 msgid "Email staff to create course"
@@ -21699,7 +21699,7 @@ msgid ""
 "organization name is part of the course URL.{strong_end} This cannot be "
 "changed, but you can set a different display name in Advanced Settings "
 "later."
-msgstr ""
+msgstr "แนะนำให้ใช้ชื่อย่อภาษาอังกฤษ เช่น DSRU (Demonstration School of Ramkhamhaeng University)"
 
 #: cms/templates/index.html
 msgid ""
@@ -23287,7 +23287,7 @@ msgstr "แนะนำหลักสูตร"
 
 #: cms/templates/widgets/header.html
 msgid "Outline"
-msgstr "เค้าโครงหลักสูตร"
+msgstr "โครงร่างหลักสูตร"
 
 #: cms/templates/widgets/header.html
 msgid "Import"
