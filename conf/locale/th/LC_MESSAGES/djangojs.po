@@ -1907,7 +1907,7 @@ msgstr ""
 
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Required field."
-msgstr "ส่วนที่จำเป็นต้องระบุ"
+msgstr "ห้ามเว้นว่าง"
 
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Please do not use any spaces in this field."
@@ -1915,7 +1915,7 @@ msgstr "กรุณาอย่าใช้พื้นที่ว่างใ
 
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Please do not use any spaces or special characters in this field."
-msgstr "กรุณาอย่าใช้พื้นที่ว่างหรืออักขระพิเศษในส่วนนี้"
+msgstr "ห้ามใช้ภาษาไทย ค่าว่าง หรืออักขระพิเศษ"
 
 #: common/static/common/js/components/views/paginated_view.js
 #: common/static/common/js/components/views/paging_footer.js
@@ -5889,7 +5889,7 @@ msgstr ""
 
 #: cms/static/js/views/modals/course_outline_modals.js
 msgid "Visibility"
-msgstr ""
+msgstr "การมองเห็น"
 
 #. Translators: "title" is the name of the current component being edited.
 #: cms/static/js/views/modals/edit_xblock.js
@@ -6107,13 +6107,11 @@ msgid ""
 "Your changes will not take effect until you save your progress. Take care "
 "with key and value formatting, as validation is not implemented."
 msgstr ""
-"การเปลี่ยนแปลงของคุณจะไม่มีผลจนกว่าคุณจะบันทึกความคืบหน้าของคุณ "
-"เพียงแค่ดำเนินการด้วยด้วยคีย์และค่าการจัดรูปแบบ "
-"การตรวจสอบจะไม่มีผลต่อการสร้างใดๆ เกิดขึ้น"
+"การเปลี่ยนแปลงของคุณจะไม่มีผลจนกว่าคุณจะเลือกบันทึกการเปลี่ยนแปลง "
 
 #: cms/static/js/views/settings/advanced.js
 msgid "Your policy changes have been saved."
-msgstr "การเปลี่ยนแปลงนโยบายของคุณได้รับการเก็บบันทึกแล้ว"
+msgstr "การเปลี่ยนแปลงของคุณได้รับการบันทึกแล้ว"
 
 #: cms/static/js/views/settings/advanced.js
 msgid ""
@@ -6496,7 +6494,7 @@ msgstr "การตั้งค่าต่างๆ "
 
 #: cms/static/js/views/xblock_outline.js
 msgid "New {component_type}"
-msgstr ""
+msgstr "เพิ่ม{component_type}ใหม่"
 
 #. Translators: This message will be added to the front of messages of type
 #. warning,
@@ -8636,7 +8634,7 @@ msgstr ""
 
 #: cms/templates/js/add-xblock-component.underscore
 msgid "Add New Component"
-msgstr ""
+msgstr "เพิ่มสื่อใหม่"
 
 #: cms/templates/js/advanced_entry.underscore
 msgid "Deprecated"
@@ -8676,7 +8674,7 @@ msgstr ""
 
 #: cms/templates/js/asset.underscore
 msgid "Studio:"
-msgstr ""
+msgstr "คัดลอกลิงก์"
 
 #: cms/templates/js/asset.underscore
 msgid "Web:"
@@ -8961,7 +8959,7 @@ msgstr ""
 
 #: cms/templates/js/course-outline.underscore
 msgid "Contains staff only content"
-msgstr ""
+msgstr "ส่วนนี้ถูกซ่อนไม่ให้ผู้เรียนเห็น"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Unpublished changes to live content"
@@ -9021,15 +9019,15 @@ msgstr ""
 
 #: cms/templates/js/course-outline.underscore
 msgid "Configure"
-msgstr ""
+msgstr "กำหนดค่า"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Duplicate"
-msgstr ""
+msgstr "ทำสำเนา"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Drag to reorder"
-msgstr ""
+msgstr "ลากเพื่อจัดลำดับใหม่"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Release Status:"
@@ -9620,7 +9618,7 @@ msgstr ""
 #: cms/templates/js/publish-xblock.underscore
 #: cms/templates/js/staff-lock-editor.underscore
 msgid "Hide from learners"
-msgstr ""
+msgstr "ซ่อนไม่ให้ผู้เรียนเห็น"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Note: Do not hide graded assignments after they have been released."
@@ -9768,11 +9766,11 @@ msgstr ""
 
 #: cms/templates/js/staff-lock-editor.underscore
 msgid "Unit Visibility"
-msgstr ""
+msgstr "การมองเห็นของหน่วยนี้"
 
 #: cms/templates/js/staff-lock-editor.underscore
 msgid "Section Visibility"
-msgstr ""
+msgstr "การมองเห็นของส่วนนี้"
 
 #: cms/templates/js/staff-lock-editor.underscore
 msgid ""
