@@ -65,7 +65,7 @@ define(['js/views/validation',
                     instance.save();
                 // this event's being called even when there's no change :-(
                     if (instance.getValue() !== oldValue) {
-                        var message = gettext('Your changes will not take effect until you save your progress. Take care with key and value formatting, as validation is not implemented.');
+                        var message = /* gettext('Your changes will not take effect until you save your progress. Take care with key and value formatting, as validation is not implemented.'); */ 'การเปลี่ยนแปลงของคุณจะไม่มีผลจนกว่าคุณจะเลือก "บันทึกการเปลี่ยนแปลง"';
                         self.showNotificationBar(message,
                                              _.bind(self.saveView, self),
                                              _.bind(self.revertView, self));
@@ -114,8 +114,8 @@ define(['js/views/validation',
                 var self = this;
                 this.model.save({}, {
                     success: function() {
-                        var title = gettext('Your policy changes have been saved.');
-                        var message = gettext('No validation is performed on policy keys or value pairs. If you are having difficulties, check your formatting.');  // eslint-disable-line max-len
+                        var title = /* gettext('Your policy changes have been saved.') */ 'การเปลี่ยนแปลงของคุณได้รับการบันทึกแล้ว';
+                        var message = /* gettext('No validation is performed on policy keys or value pairs. If you are having difficulties, check your formatting.'); */ '';  // eslint-disable-line max-len
                         self.render();
                         self.showSavedBar(title, message);
                         analytics.track('Saved Advanced Settings', {

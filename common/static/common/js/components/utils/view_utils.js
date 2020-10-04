@@ -212,7 +212,7 @@
              * Helper method for course/library creation - verifies a required field is not blank.
              */
             validateRequiredField = function(msg) {
-                return msg.length === 0 ? gettext('Required field.') : '';
+                return msg.length === 0 ? /* gettext('Required field.') */ 'ห้ามเว้นว่าง' : '';
             };
 
             /**
@@ -230,7 +230,7 @@
                     }
                 } else {
                     if (item !== encodeURIComponent(item) || item.match(/[!'()*]/)) {
-                        return gettext('Please do not use any spaces or special characters in this field.');
+                        return /* gettext('Please do not use any spaces or special characters in this field.') */ 'ห้ามใช้ภาษาไทย ค่าว่าง หรืออักขระพิเศษ';
                     }
                 }
                 return '';

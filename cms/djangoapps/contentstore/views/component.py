@@ -259,7 +259,7 @@ def get_component_templates(courselike, library=False):
         'discussion': _("Discussion"),
         'html': _("HTML"),
         'problem': _("Problem"),
-        'video': _("Video")
+        'video': "วิดีโอ" # _("Video")
     }
 
     component_templates = []
