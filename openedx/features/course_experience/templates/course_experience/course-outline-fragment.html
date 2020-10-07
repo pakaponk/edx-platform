@@ -34,10 +34,10 @@ dates_banner_displayed = False
     % if course_sections is not None:
         <button class="btn btn-primary"
                 id="expand-collapse-outline-all-button"
-                aria-expanded="false"
+                aria-expanded="true"
                 aria-controls="course-outline-block-tree"
                 >
-          <span class="expand-collapse-outline-all-extra-padding" id="expand-collapse-outline-all-span">${_("Expand All")}</span>
+          <span id="expand-collapse-outline-all-span"><!-- ${_("Collapse All")} -->ซ่อนทั้งหมด</span>
         </button>
         <ol class="block-tree accordion"
             id="course-outline-block-tree"
@@ -49,17 +49,17 @@ dates_banner_displayed = False
             %>
                 <li class="outline-item section ${scored}">
                     <button class="section-name accordion-trigger outline-button"
-                            aria-expanded="${ 'true' if section_is_auto_opened else 'false' }"
+                            aria-expanded="true"
                             aria-controls="${ section['id'] }_contents"
                             id="${ section['id'] }">
-                        <span class="fa fa-chevron-right ${ 'fa-rotate-90' if section_is_auto_opened else '' }" aria-hidden="true"></span>
+                        <span class="fa fa-chevron-right fa-rotate-90" aria-hidden="true"></span>
                         <h3 class="section-title">${ section['display_name'] }</h3>
             % if section.get('complete'):
                             <span class="complete-checkmark fa fa-check" aria-hidden="true"></span>
                             <span class="sr">${_("Completed")}</span>
             % endif
                     </button>
-                    <ol class="outline-item accordion-panel ${ '' if section_is_auto_opened else 'is-hidden' }"
+                    <ol class="outline-item accordion-panel"
                         id="${ section['id'] }_contents"
                         aria-labelledby="${ section['id'] }">
             % for subsection in section.get('children', []):
@@ -80,10 +80,10 @@ dates_banner_displayed = False
                 % endif
                         <li class="subsection accordion ${ 'current' if subsection.get('resume_block') else '' } ${graded} ${scored}">
                             <button class="section-name accordion-trigger outline-button" 
-                                    aria-expanded="${ 'true' if subsection_is_auto_opened else 'false' }"
+                                    aria-expanded="true"
                                     aria-controls="${ subsection['id'] }_contents"
                                     id="${ subsection['id']}">
-                                    <span class="fa fa-chevron-right ${ 'fa-rotate-90' if section_is_auto_opened else '' }" aria-hidden="true"></span>
+                                    <span class="fa fa-chevron-right fa-rotate-90" aria-hidden="true"></span>
                                     <h3 class="section-title">
                 % if graded and scored and 'special_exam_info' not in subsection:
                                         <span class="icon fa fa-pencil-square-o" aria-hidden="true"></span>
@@ -100,7 +100,7 @@ dates_banner_displayed = False
                                     <span class="sr">${_("Completed")}</span>
                 % endif
                             </button>
-                            <ol class="outline-item accordion-panel ${ '' if section_is_auto_opened else 'is-hidden' }"
+                            <ol class="outline-item accordion-panel"
                                 id="${ subsection['id'] }_contents"
                                 aria-labelledby="${ subsection['id'] }">
                 % for vertical in subsection.get('children', []):
