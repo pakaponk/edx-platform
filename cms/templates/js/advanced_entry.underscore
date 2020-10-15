@@ -1,4 +1,4 @@
-<% if (!hidden && (display_name == 'ชื่อหลักสูตร' || display_name == 'Advanced Module List')) { %>
+<% if (!hidden && (display_name == 'ชื่อหลักสูตร' || display_name == 'Advanced Module List' || display_name == 'Enable CCX')) { %>
     <li class="field-group course-advanced-policy-list-item <%- deprecated ? 'is-deprecated' : '' %>">
         <div class="field is-not-editable text key" id="<%- key %>">
             <h3 class="title" id="<%- keyUniqueId %>"><%- display_name %></h3>
